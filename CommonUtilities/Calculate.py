@@ -18,8 +18,11 @@ def calculate_correlation(X, Y, nodes):
     scaled_X = scaler.fit_transform(filt_X)
 
     pca = PCA(n_components=1)
-    pc1 = [i for i in pca.fit_transform(scaled_X)]
+    pc1 = [i for i, in pca.fit_transform(scaled_X)]
 
-    corr, p_val = pearsonr(pc1, Y)
+    Y_col = Y.iloc[:, 0]
 
-    return corr, p_val
+    corr, p_val = pearsonr(pc1, Y_col)
+    var_ex = pca.explained_variance_ratio_[0]
+
+    return corr, p_val, var_ex
