@@ -7,7 +7,7 @@ def send_notification(message, priority=0, image_path=None):
     params = {
         'token': keyring.get_password('Pushover', 'token'),
         'user': keyring.get_password('Pushover', 'user'),
-        'device': 'mohamediphone',
+        'device': keyring.get_password('Pushover', 'device'),
         'message': message,
         'priority': priority
     }
