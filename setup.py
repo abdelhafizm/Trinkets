@@ -10,7 +10,8 @@ setup(
         'requests>=2',
         'keyring>=24',
         'scikit-learn>=1',
-        'scipy>=1'
+        'scipy>=1',
+        'pyyaml>=6'
     ],
     packages=['CommonUtilities'],
     license='MIT',
