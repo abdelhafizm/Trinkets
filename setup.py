@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='CommonUtilities',
-    version='0.1.2',
+    version='0.1.3',
     author='Mohamed Abdel-Hafiz',
     author_email='mohamed.abdel-hafiz@cuanschutz.edu',
     description='A group of commonly used functions.',
