@@ -62,7 +62,6 @@ def pickle_load(filename, directory=None, notify=False):
             send_notification(f'Loaded {filename}')
 
     else:
-        send_notification(f'Unable to read {filename} because it doesn\'t exist.')
         if notify:
             send_notification(f'Unable to read {filename} because it doesn\'t exist.')
         return None
