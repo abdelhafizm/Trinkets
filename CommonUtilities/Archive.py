@@ -5,7 +5,7 @@ from CommonUtilities.Notify import send_notification
 from yaml import safe_load, safe_dump
 
 
-def pickle_save(variable, filename, directory=None, notify=True, timestamp=False):
+def pickle_save(variable, filename, directory=None, notify=False, timestamp=False):
     """
     Saves a given variable to a pickle file. 
     
@@ -70,7 +70,7 @@ def pickle_load(filename, directory=None, notify=False):
     return variable
 
 
-def yaml_save(variable, filename, directory=None, notify=True, timestamp=False):
+def yaml_save(variable, filename, directory=None, notify=False, timestamp=False):
     """
     Saves a dictionary of metrics to a yml file.
 
