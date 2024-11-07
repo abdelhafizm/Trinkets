@@ -1,5 +1,10 @@
 from setuptools import setup
 
+description = """Trinkets is a collection of useful tools and helper scripts.
+
+[wip]
+"""
+
 setup(
     name='trinkets',
     version='0.2.1',
@@ -15,6 +20,5 @@ setup(
     ],
     packages=['trinkets'],
     license='MIT',
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
+    long_description=description
 )
