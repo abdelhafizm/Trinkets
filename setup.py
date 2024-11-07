@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='CommonUtilities',
+    name='trinkets',
     version='0.2.1',
     author='Mohamed Abdel-Hafiz',
     author_email='mohamed.abdel-hafiz@cuanschutz.edu',
@@ -13,6 +13,6 @@ setup(
         'scipy>=1',
         'pyyaml>=6'
     ],
-    packages=['CommonUtilities'],
+    packages=['trinkets'],
     license='MIT',
 )
