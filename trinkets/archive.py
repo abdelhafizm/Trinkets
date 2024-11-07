@@ -1,7 +1,7 @@
 from pickle import dump, load
 from pathlib import Path
 from datetime import datetime
-from CommonUtilities.Notify import send_notification
+from trinkets.notify import send_notification
 from yaml import safe_load, safe_dump
 
 

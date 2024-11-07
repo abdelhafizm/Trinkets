@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime
-from CommonUtilities.Notify import send_notification
+from trinkets.notify import send_notification
 
 
 def plot_with_metrics(X, Y, title=None, x_label=None, y_label=None, metrics=None, save=True, directory=None,
