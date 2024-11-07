@@ -7,7 +7,7 @@ description = """Trinkets is a collection of useful tools and helper scripts.
 
 setup(
     name='trinkets',
-    version='0.2.1',
+    version='0.2.2',
     author='Mohamed Abdel-Hafiz',
     author_email='mohamed.abdel-hafiz@cuanschutz.edu',
     description='A group of commonly used functions.',
