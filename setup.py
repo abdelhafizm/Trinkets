@@ -19,6 +19,7 @@ setup(
         'pyyaml>=6'
     ],
     packages=['trinkets'],
+    package_dir={'': 'src'},
     license='MIT',
     long_description=description
 )
