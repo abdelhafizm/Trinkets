@@ -21,5 +21,6 @@ setup(
     packages=['trinkets'],
     package_dir={'': 'src'},
     license='MIT',
-    long_description=description
+    long_description=description,
+    python_requires='>=3.9'
 )
