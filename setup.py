@@ -7,14 +7,14 @@ description = """Trinkets is a collection of useful tools and helper scripts.
 
 setup(
     name='trinkets',
-    version='0.2.2',
+    version='0.2.3',
     author='Mohamed Abdel-Hafiz',
     author_email='mohamed.abdel-hafiz@cuanschutz.edu',
     description='A group of commonly used functions.',
     install_requires=[
-        'requests>=2',
+        "requests>=2.32.0",
         'keyring>=24',
-        'scikit-learn>=1',
+        "scikit-learn>=1.5.0",
         'scipy>=1',
         'pyyaml>=6'
     ],
