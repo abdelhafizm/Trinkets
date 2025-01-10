@@ -49,7 +49,7 @@ def plot_with_metrics(X, Y, title=None, x_label=None, y_label=None, metrics=None
 
         filename = title
 
-        for char in '<>:"/\|?* ':
+        for char in r'<>:"/\|?* ':
             filename = filename.replace(char, '_')
 
         if timestamp:
