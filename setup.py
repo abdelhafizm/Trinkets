@@ -7,7 +7,7 @@ description = """Trinkets is a collection of useful tools and helper scripts.
 
 setup(
     name='trinkets',
-    version='0.2.4',
+    version='0.2.5',
     author='Mohamed Abdel-Hafiz',
     author_email='mohamed.abdel-hafiz@cuanschutz.edu',
     description='A group of commonly used functions.',
@@ -22,5 +22,6 @@ setup(
     packages=['trinkets'],
     package_dir={'': 'src'},
     license='MIT',
-    long_description=description
+    long_description=description,
+    python_requires='>=3.9'
 )

@@ -10,8 +10,10 @@ def pickle_save(variable, filename, directory=None, notify=False, timestamp=Fals
     Saves a given variable to a pickle file. 
     
     :param variable: Variable to save.
-    :param filename: Filename. Will automatically save as a ``.pkl`` file regardless of (lack of) extension in supplied filename.
-    :param directory: [Optional] Directory to save in. Will be created if necessary. If no directory specified, pickle file will be output to current working directory.
+    :param filename: Filename. Will automatically save as a ``.pkl`` file regardless of (lack of) extension in supplied
+    filename.
+    :param directory: [Optional] Directory to save in. Will be created if necessary. If no directory specified, pickle
+    file will be output to current working directory.
     :param notify: [Optional] Send notification when done. See ``Notify.send_notification`` for details.
     :param timestamp: [Optional] Automatically append timestamp to filename.
     :return: None
@@ -40,7 +42,8 @@ def pickle_load(filename, directory=None, notify=False):
     Loads a pickle file.
     
     :param filename: Filename.
-    :param directory: [Optional] Directory where file is stored. If no directory specified, will load from current working directory. 
+    :param directory: [Optional] Directory where file is stored. If no directory specified, will load from current
+    working directory.
     :param notify: [Optional] Send notification when done. See ``Notify.send_notification`` for details.
     :return: Loaded variable.
     """
@@ -75,8 +78,10 @@ def yaml_save(variable, filename, directory=None, notify=False, timestamp=False)
     Saves a dictionary of metrics to a yml file.
 
     :param variable: Variable to save.
-    :param filename: Filename. Will automatically save as a ``.pkl`` file regardless of (lack of) extension in supplied filename.
-    :param directory: [Optional] Directory to save in. Will be created if necessary. If no directory specified, pickle file will be output to current working directory.
+    :param filename: Filename. Will automatically save as a ``.pkl`` file regardless of (lack of) extension in supplied
+    filename.
+    :param directory: [Optional] Directory to save in. Will be created if necessary. If no directory specified, pickle
+    file will be output to current working directory.
     :param notify: [Optional] Send notification when done. See ``Notify.send_notification`` for details.
     :param timestamp: [Optional] Automatically append timestamp to filename.
     :return: None
@@ -105,7 +110,8 @@ def yaml_load(filename, directory=None, notify=False):
     Loads a yaml file.
 
     :param filename: Filename.
-    :param directory: [Optional] Directory where file is stored. If no directory specified, will load from current working directory.
+    :param directory: [Optional] Directory where file is stored. If no directory specified, will load from current
+    working directory.
     :param notify: [Optional] Send notification when done. See ``Notify.send_notification`` for details.
     :return: Loaded variable.
     """

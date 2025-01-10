@@ -26,4 +26,4 @@ def send_notification(message, priority=0, image_path=None):
         'attachment': ('img', open(image_path, 'rb'))
     } if image_path else {}
 
-    r = requests.post(url=url, data=params, files=files)
+    requests.post(url=url, data=params, files=files)
