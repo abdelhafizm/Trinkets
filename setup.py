@@ -16,7 +16,8 @@ setup(
         'keyring>=24',
         "scikit-learn>=1.5.0",
         'scipy>=1',
-        'pyyaml>=6'
+        'pyyaml>=6',
+        'matplotlib>=3.9'
     ],
     packages=['trinkets'],
     package_dir={'': 'src'},
