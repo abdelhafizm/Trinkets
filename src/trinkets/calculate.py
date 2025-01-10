@@ -5,7 +5,8 @@ from scipy.stats import pearsonr
 
 def calculate_correlation(x, y, nodes):
     """
-    Filters a given dataset, then finds Pearson correlation between first principal component of filtered dataset and target variable.
+    Filters a given dataset, then finds Pearson correlation between first principal component of filtered dataset and
+    target variable.
 
     :param x: Full, unfiltered dataset, as a pandas DataFrame.
     :param y: Target variable.
