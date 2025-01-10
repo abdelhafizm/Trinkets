@@ -4,13 +4,13 @@ from datetime import datetime
 from trinkets.notify import send_notification
 
 
-def plot_with_metrics(X, Y, title=None, x_label=None, y_label=None, metrics=None, save=True, directory=None,
+def plot_with_metrics(x, y, title=None, x_label=None, y_label=None, metrics=None, save=True, directory=None,
                       timestamp=True, notify=False):
     """
     Creates a plot with supplied metrics listed next to plot. Optionally saves figure.
 
-    :param X: Independent data.
-    :param Y: Dependent data.
+    :param x: Independent data.
+    :param y: Dependent data.
     :param title: [Optional] Plot title.
     :param x_label: [Optional] X axis label.
     :param y_label: [Optional] Y axis label.
@@ -22,7 +22,7 @@ def plot_with_metrics(X, Y, title=None, x_label=None, y_label=None, metrics=None
     :return: None
     """
     plt.figure()
-    plt.plot(X, Y)
+    plt.plot(x, y)
 
     if title:
         plt.title(title)
